@@ -1,0 +1,17 @@
+# weights, data, environments and run output never go in git
+.venv/
+models/
+data/
+runs/
+out/
+*.gguf
+*.safetensors
+*.parquet
+*.log
+*.err
+__pycache__/
+# one-off exploration scripts
+ds_*.py
+dsearch.py
+hfsearch.py
+tok_test.py
