@@ -1,4 +1,4 @@
-"""Merge the trained LoRA into ALLaM-7B, export GGUF, quantize, and measure each variant.
+﻿"""Merge the trained LoRA into ALLaM-7B, export GGUF, quantize, and measure each variant.
 
 Merging happens in bf16 on the CPU (128 GB RAM) so the 4-bit training base never leaks into
 the released weights. Each GGUF gets a perplexity score on held-out Arabic chat text and a
@@ -10,7 +10,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
 BASE = r"D:\arabic8b\models\ALLaM-7B"
-ADAPTER = r"D:\arabic8b\runs\allam-ar-sft\final"
+ADAPTER = os.environ.get("ADAPTER", r"D:\arabic8b\runs\allam-ar-sft\final-half")  # half strength: see README
 MERGED = r"D:\arabic8b\out\merged"
 GG = r"D:\arabic8b\out\gguf"
 LC = r"C:\Apps\llama.cpp"

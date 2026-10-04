@@ -1,0 +1,30 @@
+{
+ "F16": {
+  "size_gb": 14.0,
+  "ppl": 7.0542,
+  "ppl_err": 0.05543,
+  "prompt_tok_s": 9629.2,
+  "gen_tok_s": 60.1
+ },
+ "Q8_0": {
+  "size_gb": 7.44,
+  "ppl": 7.0483,
+  "ppl_err": 0.05533,
+  "prompt_tok_s": 8936.3,
+  "gen_tok_s": 106.8
+ },
+ "Q5_K_M": {
+  "size_gb": 4.98,
+  "ppl": 7.0477,
+  "ppl_err": 0.05507,
+  "prompt_tok_s": 8178.2,
+  "gen_tok_s": 149.5
+ },
+ "Q4_K_M": {
+  "size_gb": 4.26,
+  "ppl": 7.1119,
+  "ppl_err": 0.05559,
+  "prompt_tok_s": 8287.6,
+  "gen_tok_s": 168.7
+ }
+}

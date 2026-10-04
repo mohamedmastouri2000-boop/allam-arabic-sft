@@ -1,0 +1,1084 @@
+{
+ "label": "allam-7b-sft",
+ "model": "D:/arabic8b/models/ALLaM-7B",
+ "adapter": "D:/arabic8b/runs/allam-ar-sft/final",
+ "tasks": [
+  "arabic_leaderboard_arabic_mmlu_light",
+  "arabic_exams_light",
+  "arabic_leaderboard_acva_light"
+ ],
+ "limit": null,
+ "seconds": 335,
+ "results": {
+  "arabic_leaderboard_arabic_mmlu_abstract_algebra_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_abstract_algebra_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_abstract_algebra_light",
+   "sample_len": 10,
+   "acc,none": 0.3,
+   "acc_stderr,none": 0.15275252316519464,
+   "acc_norm,none": 0.3,
+   "acc_norm_stderr,none": 0.15275252316519464
+  },
+  "arabic_leaderboard_arabic_mmlu_anatomy_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_anatomy_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_anatomy_light",
+   "sample_len": 13,
+   "acc,none": 0.3076923076923077,
+   "acc_stderr,none": 0.13323467750529824,
+   "acc_norm,none": 0.3076923076923077,
+   "acc_norm_stderr,none": 0.13323467750529824
+  },
+  "arabic_leaderboard_arabic_mmlu_astronomy_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_astronomy_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_astronomy_light",
+   "sample_len": 15,
+   "acc,none": 0.6666666666666666,
+   "acc_stderr,none": 0.12598815766974242,
+   "acc_norm,none": 0.6666666666666666,
+   "acc_norm_stderr,none": 0.12598815766974242
+  },
+  "arabic_leaderboard_arabic_mmlu_business_ethics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_business_ethics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_business_ethics_light",
+   "sample_len": 10,
+   "acc,none": 0.4,
+   "acc_stderr,none": 0.16329931618554522,
+   "acc_norm,none": 0.4,
+   "acc_norm_stderr,none": 0.16329931618554522
+  },
+  "arabic_leaderboard_arabic_mmlu_clinical_knowledge_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_clinical_knowledge_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_clinical_knowledge_light",
+   "sample_len": 26,
+   "acc,none": 0.38461538461538464,
+   "acc_stderr,none": 0.09730085108210398,
+   "acc_norm,none": 0.38461538461538464,
+   "acc_norm_stderr,none": 0.09730085108210398
+  },
+  "arabic_leaderboard_arabic_mmlu_college_biology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_biology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_biology_light",
+   "sample_len": 14,
+   "acc,none": 0.42857142857142855,
+   "acc_stderr,none": 0.13725270326150324,
+   "acc_norm,none": 0.42857142857142855,
+   "acc_norm_stderr,none": 0.13725270326150324
+  },
+  "arabic_leaderboard_arabic_mmlu_college_chemistry_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_chemistry_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_chemistry_light",
+   "sample_len": 10,
+   "acc,none": 0.1,
+   "acc_stderr,none": 0.09999999999999999,
+   "acc_norm,none": 0.1,
+   "acc_norm_stderr,none": 0.09999999999999999
+  },
+  "arabic_leaderboard_arabic_mmlu_college_computer_science_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_computer_science_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_computer_science_light",
+   "sample_len": 10,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.16666666666666666,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.16666666666666666
+  },
+  "arabic_leaderboard_arabic_mmlu_college_mathematics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_mathematics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_mathematics_light",
+   "sample_len": 10,
+   "acc,none": 0.3,
+   "acc_stderr,none": 0.15275252316519464,
+   "acc_norm,none": 0.3,
+   "acc_norm_stderr,none": 0.15275252316519464
+  },
+  "arabic_leaderboard_arabic_mmlu_college_medicine_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_medicine_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_medicine_light",
+   "sample_len": 17,
+   "acc,none": 0.5882352941176471,
+   "acc_stderr,none": 0.12303823919618757,
+   "acc_norm,none": 0.5882352941176471,
+   "acc_norm_stderr,none": 0.12303823919618757
+  },
+  "arabic_leaderboard_arabic_mmlu_college_physics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_college_physics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_college_physics_light",
+   "sample_len": 10,
+   "acc,none": 0.4,
+   "acc_stderr,none": 0.16329931618554522,
+   "acc_norm,none": 0.4,
+   "acc_norm_stderr,none": 0.16329931618554522
+  },
+  "arabic_leaderboard_arabic_mmlu_computer_security_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_computer_security_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_computer_security_light",
+   "sample_len": 10,
+   "acc,none": 0.7,
+   "acc_stderr,none": 0.15275252316519466,
+   "acc_norm,none": 0.7,
+   "acc_norm_stderr,none": 0.15275252316519466
+  },
+  "arabic_leaderboard_arabic_mmlu_conceptual_physics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_conceptual_physics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_conceptual_physics_light",
+   "sample_len": 23,
+   "acc,none": 0.4782608695652174,
+   "acc_stderr,none": 0.10649955403405124,
+   "acc_norm,none": 0.4782608695652174,
+   "acc_norm_stderr,none": 0.10649955403405124
+  },
+  "arabic_leaderboard_arabic_mmlu_econometrics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_econometrics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_econometrics_light",
+   "sample_len": 11,
+   "acc,none": 0.2727272727272727,
+   "acc_stderr,none": 0.14083575804390605,
+   "acc_norm,none": 0.2727272727272727,
+   "acc_norm_stderr,none": 0.14083575804390605
+  },
+  "arabic_leaderboard_arabic_mmlu_electrical_engineering_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_electrical_engineering_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_electrical_engineering_light",
+   "sample_len": 14,
+   "acc,none": 0.5714285714285714,
+   "acc_stderr,none": 0.13725270326150324,
+   "acc_norm,none": 0.5714285714285714,
+   "acc_norm_stderr,none": 0.13725270326150324
+  },
+  "arabic_leaderboard_arabic_mmlu_elementary_mathematics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_elementary_mathematics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_elementary_mathematics_light",
+   "sample_len": 37,
+   "acc,none": 0.5135135135135135,
+   "acc_stderr,none": 0.08330289193201319,
+   "acc_norm,none": 0.5135135135135135,
+   "acc_norm_stderr,none": 0.08330289193201319
+  },
+  "arabic_leaderboard_arabic_mmlu_formal_logic_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_formal_logic_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_formal_logic_light",
+   "sample_len": 12,
+   "acc,none": 0.4166666666666667,
+   "acc_stderr,none": 0.1486470975026408,
+   "acc_norm,none": 0.4166666666666667,
+   "acc_norm_stderr,none": 0.1486470975026408
+  },
+  "arabic_leaderboard_arabic_mmlu_global_facts_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_global_facts_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_global_facts_light",
+   "sample_len": 10,
+   "acc,none": 0.3,
+   "acc_stderr,none": 0.15275252316519464,
+   "acc_norm,none": 0.3,
+   "acc_norm_stderr,none": 0.15275252316519464
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_biology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_biology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_biology_light",
+   "sample_len": 31,
+   "acc,none": 0.5483870967741935,
+   "acc_stderr,none": 0.09085862440549511,
+   "acc_norm,none": 0.5483870967741935,
+   "acc_norm_stderr,none": 0.09085862440549511
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_chemistry_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_chemistry_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_chemistry_light",
+   "sample_len": 20,
+   "acc,none": 0.55,
+   "acc_stderr,none": 0.11413288653790232,
+   "acc_norm,none": 0.55,
+   "acc_norm_stderr,none": 0.11413288653790232
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_computer_science_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_computer_science_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_computer_science_light",
+   "sample_len": 10,
+   "acc,none": 0.6,
+   "acc_stderr,none": 0.16329931618554522,
+   "acc_norm,none": 0.6,
+   "acc_norm_stderr,none": 0.16329931618554522
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_european_history_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_european_history_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_european_history_light",
+   "sample_len": 16,
+   "acc,none": 0.3125,
+   "acc_stderr,none": 0.11967838846954226,
+   "acc_norm,none": 0.3125,
+   "acc_norm_stderr,none": 0.11967838846954226
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_geography_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_geography_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_geography_light",
+   "sample_len": 19,
+   "acc,none": 0.5263157894736842,
+   "acc_stderr,none": 0.1176877882894626,
+   "acc_norm,none": 0.5263157894736842,
+   "acc_norm_stderr,none": 0.1176877882894626
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_government_and_politics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_government_and_politics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_government_and_politics_light",
+   "sample_len": 19,
+   "acc,none": 0.6842105263157895,
+   "acc_stderr,none": 0.10956136839295434,
+   "acc_norm,none": 0.6842105263157895,
+   "acc_norm_stderr,none": 0.10956136839295434
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_macroeconomics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_macroeconomics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_macroeconomics_light",
+   "sample_len": 39,
+   "acc,none": 0.6153846153846154,
+   "acc_stderr,none": 0.07892141169885801,
+   "acc_norm,none": 0.6153846153846154,
+   "acc_norm_stderr,none": 0.07892141169885801
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_mathematics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_mathematics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_mathematics_light",
+   "sample_len": 27,
+   "acc,none": 0.14814814814814814,
+   "acc_stderr,none": 0.0696696254167378,
+   "acc_norm,none": 0.14814814814814814,
+   "acc_norm_stderr,none": 0.0696696254167378
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_microeconomics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_microeconomics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_microeconomics_light",
+   "sample_len": 23,
+   "acc,none": 0.5217391304347826,
+   "acc_stderr,none": 0.10649955403405124,
+   "acc_norm,none": 0.5217391304347826,
+   "acc_norm_stderr,none": 0.10649955403405124
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_physics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_physics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_physics_light",
+   "sample_len": 15,
+   "acc,none": 0.4,
+   "acc_stderr,none": 0.13093073414159542,
+   "acc_norm,none": 0.4,
+   "acc_norm_stderr,none": 0.13093073414159542
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_psychology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_psychology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_psychology_light",
+   "sample_len": 54,
+   "acc,none": 0.6111111111111112,
+   "acc_stderr,none": 0.06696300316010247,
+   "acc_norm,none": 0.6111111111111112,
+   "acc_norm_stderr,none": 0.06696300316010247
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_statistics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_statistics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_statistics_light",
+   "sample_len": 21,
+   "acc,none": 0.38095238095238093,
+   "acc_stderr,none": 0.10858813572372744,
+   "acc_norm,none": 0.38095238095238093,
+   "acc_norm_stderr,none": 0.10858813572372744
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_us_history_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_us_history_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_us_history_light",
+   "sample_len": 20,
+   "acc,none": 0.3,
+   "acc_stderr,none": 0.10513149660756935,
+   "acc_norm,none": 0.3,
+   "acc_norm_stderr,none": 0.10513149660756935
+  },
+  "arabic_leaderboard_arabic_mmlu_high_school_world_history_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_high_school_world_history_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_high_school_world_history_light",
+   "sample_len": 23,
+   "acc,none": 0.5652173913043478,
+   "acc_stderr,none": 0.10568965974008647,
+   "acc_norm,none": 0.5652173913043478,
+   "acc_norm_stderr,none": 0.10568965974008647
+  },
+  "arabic_leaderboard_arabic_mmlu_human_aging_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_human_aging_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_human_aging_light",
+   "sample_len": 22,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.10910894511799618,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.10910894511799618
+  },
+  "arabic_leaderboard_arabic_mmlu_human_sexuality_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_human_sexuality_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_human_sexuality_light",
+   "sample_len": 13,
+   "acc,none": 0.5384615384615384,
+   "acc_stderr,none": 0.14390989949130545,
+   "acc_norm,none": 0.5384615384615384,
+   "acc_norm_stderr,none": 0.14390989949130545
+  },
+  "arabic_leaderboard_arabic_mmlu_international_law_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_international_law_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_international_law_light",
+   "sample_len": 12,
+   "acc,none": 0.5833333333333334,
+   "acc_stderr,none": 0.1486470975026408,
+   "acc_norm,none": 0.5833333333333334,
+   "acc_norm_stderr,none": 0.1486470975026408
+  },
+  "arabic_leaderboard_arabic_mmlu_jurisprudence_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_jurisprudence_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_jurisprudence_light",
+   "sample_len": 10,
+   "acc,none": 0.6,
+   "acc_stderr,none": 0.16329931618554522,
+   "acc_norm,none": 0.6,
+   "acc_norm_stderr,none": 0.16329931618554522
+  },
+  "arabic_leaderboard_arabic_mmlu_logical_fallacies_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_logical_fallacies_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_logical_fallacies_light",
+   "sample_len": 16,
+   "acc,none": 0.5625,
+   "acc_stderr,none": 0.128086884574495,
+   "acc_norm,none": 0.5625,
+   "acc_norm_stderr,none": 0.128086884574495
+  },
+  "arabic_leaderboard_arabic_mmlu_machine_learning_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_machine_learning_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_machine_learning_light",
+   "sample_len": 11,
+   "acc,none": 0.2727272727272727,
+   "acc_stderr,none": 0.14083575804390605,
+   "acc_norm,none": 0.2727272727272727,
+   "acc_norm_stderr,none": 0.14083575804390605
+  },
+  "arabic_leaderboard_arabic_mmlu_management_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_management_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_management_light",
+   "sample_len": 10,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 1.0,
+   "acc_norm_stderr,none": 0.0
+  },
+  "arabic_leaderboard_arabic_mmlu_marketing_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_marketing_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_marketing_light",
+   "sample_len": 23,
+   "acc,none": 0.8260869565217391,
+   "acc_stderr,none": 0.08081046758996394,
+   "acc_norm,none": 0.8260869565217391,
+   "acc_norm_stderr,none": 0.08081046758996394
+  },
+  "arabic_leaderboard_arabic_mmlu_medical_genetics_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_medical_genetics_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_medical_genetics_light",
+   "sample_len": 10,
+   "acc,none": 0.8,
+   "acc_stderr,none": 0.13333333333333333,
+   "acc_norm,none": 0.8,
+   "acc_norm_stderr,none": 0.13333333333333333
+  },
+  "arabic_leaderboard_arabic_mmlu_miscellaneous_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_miscellaneous_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_miscellaneous_light",
+   "sample_len": 78,
+   "acc,none": 0.717948717948718,
+   "acc_stderr,none": 0.05128205128205128,
+   "acc_norm,none": 0.717948717948718,
+   "acc_norm_stderr,none": 0.05128205128205128
+  },
+  "arabic_leaderboard_arabic_mmlu_moral_disputes_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_moral_disputes_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_moral_disputes_light",
+   "sample_len": 34,
+   "acc,none": 0.6176470588235294,
+   "acc_stderr,none": 0.08459514448960627,
+   "acc_norm,none": 0.6176470588235294,
+   "acc_norm_stderr,none": 0.08459514448960627
+  },
+  "arabic_leaderboard_arabic_mmlu_moral_scenarios_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_moral_scenarios_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_moral_scenarios_light",
+   "sample_len": 89,
+   "acc,none": 0.21348314606741572,
+   "acc_stderr,none": 0.04368119165829091,
+   "acc_norm,none": 0.21348314606741572,
+   "acc_norm_stderr,none": 0.04368119165829091
+  },
+  "arabic_leaderboard_arabic_mmlu_nutrition_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_nutrition_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_nutrition_light",
+   "sample_len": 30,
+   "acc,none": 0.5666666666666667,
+   "acc_stderr,none": 0.09201865544655373,
+   "acc_norm,none": 0.5666666666666667,
+   "acc_norm_stderr,none": 0.09201865544655373
+  },
+  "arabic_leaderboard_arabic_mmlu_philosophy_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_philosophy_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_philosophy_light",
+   "sample_len": 31,
+   "acc,none": 0.7096774193548387,
+   "acc_stderr,none": 0.08287246824945245,
+   "acc_norm,none": 0.7096774193548387,
+   "acc_norm_stderr,none": 0.08287246824945245
+  },
+  "arabic_leaderboard_arabic_mmlu_prehistory_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_prehistory_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_prehistory_light",
+   "sample_len": 32,
+   "acc,none": 0.46875,
+   "acc_stderr,none": 0.08962708359030336,
+   "acc_norm,none": 0.46875,
+   "acc_norm_stderr,none": 0.08962708359030336
+  },
+  "arabic_leaderboard_arabic_mmlu_professional_accounting_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_professional_accounting_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_professional_accounting_light",
+   "sample_len": 28,
+   "acc,none": 0.25,
+   "acc_stderr,none": 0.08333333333333333,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.08333333333333333
+  },
+  "arabic_leaderboard_arabic_mmlu_professional_law_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_professional_law_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_professional_law_light",
+   "sample_len": 153,
+   "acc,none": 0.43790849673202614,
+   "acc_stderr,none": 0.040241429720298275,
+   "acc_norm,none": 0.43790849673202614,
+   "acc_norm_stderr,none": 0.040241429720298275
+  },
+  "arabic_leaderboard_arabic_mmlu_professional_medicine_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_professional_medicine_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_professional_medicine_light",
+   "sample_len": 27,
+   "acc,none": 0.14814814814814814,
+   "acc_stderr,none": 0.0696696254167378,
+   "acc_norm,none": 0.14814814814814814,
+   "acc_norm_stderr,none": 0.0696696254167378
+  },
+  "arabic_leaderboard_arabic_mmlu_professional_psychology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_professional_psychology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_professional_psychology_light",
+   "sample_len": 61,
+   "acc,none": 0.5573770491803278,
+   "acc_stderr,none": 0.06412330234625556,
+   "acc_norm,none": 0.5573770491803278,
+   "acc_norm_stderr,none": 0.06412330234625556
+  },
+  "arabic_leaderboard_arabic_mmlu_public_relations_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_public_relations_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_public_relations_light",
+   "sample_len": 11,
+   "acc,none": 0.36363636363636365,
+   "acc_stderr,none": 0.15212000482437738,
+   "acc_norm,none": 0.36363636363636365,
+   "acc_norm_stderr,none": 0.15212000482437738
+  },
+  "arabic_leaderboard_arabic_mmlu_security_studies_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_security_studies_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_security_studies_light",
+   "sample_len": 24,
+   "acc,none": 0.7083333333333334,
+   "acc_stderr,none": 0.09477598811252413,
+   "acc_norm,none": 0.7083333333333334,
+   "acc_norm_stderr,none": 0.09477598811252413
+  },
+  "arabic_leaderboard_arabic_mmlu_sociology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_sociology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_sociology_light",
+   "sample_len": 20,
+   "acc,none": 0.6,
+   "acc_stderr,none": 0.11239029738980327,
+   "acc_norm,none": 0.6,
+   "acc_norm_stderr,none": 0.11239029738980327
+  },
+  "arabic_leaderboard_arabic_mmlu_us_foreign_policy_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_us_foreign_policy_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_us_foreign_policy_light",
+   "sample_len": 10,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 1.0,
+   "acc_norm_stderr,none": 0.0
+  },
+  "arabic_leaderboard_arabic_mmlu_virology_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_virology_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_virology_light",
+   "sample_len": 16,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.12909944487358055,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.12909944487358055
+  },
+  "arabic_leaderboard_arabic_mmlu_world_religions_light": {
+   "name": "arabic_leaderboard_arabic_mmlu_world_religions_light",
+   "alias": "arabic_leaderboard_arabic_mmlu_world_religions_light",
+   "sample_len": 17,
+   "acc,none": 0.7647058823529411,
+   "acc_stderr,none": 0.10604562574894087,
+   "acc_norm,none": 0.7647058823529411,
+   "acc_norm_stderr,none": 0.10604562574894087
+  },
+  "arabic_exams_light": {
+   "name": "arabic_exams_light",
+   "alias": "arabic_exams_light",
+   "sample_len": 53,
+   "acc,none": 0.5471698113207547,
+   "acc_stderr,none": 0.06902828418342012,
+   "acc_norm,none": 0.5471698113207547,
+   "acc_norm_stderr,none": 0.06902828418342012
+  },
+  "arabic_leaderboard_acva_Algeria_light": {
+   "name": "arabic_leaderboard_acva_Algeria_light",
+   "alias": "arabic_leaderboard_acva_Algeria_light",
+   "sample_len": 19,
+   "acc,none": 0.6842105263157895,
+   "acc_stderr,none": 0.10956136839295434,
+   "acc_norm,none": 0.42105263157894735,
+   "acc_norm_stderr,none": 0.11637279966159296
+  },
+  "arabic_leaderboard_acva_Ancient_Egypt_light": {
+   "name": "arabic_leaderboard_acva_Ancient_Egypt_light",
+   "alias": "arabic_leaderboard_acva_Ancient_Egypt_light",
+   "sample_len": 31,
+   "acc,none": 0.9032258064516129,
+   "acc_stderr,none": 0.05397806622800487,
+   "acc_norm,none": 0.3548387096774194,
+   "acc_norm_stderr,none": 0.08735525166275228
+  },
+  "arabic_leaderboard_acva_Arab_Empire_light": {
+   "name": "arabic_leaderboard_acva_Arab_Empire_light",
+   "alias": "arabic_leaderboard_acva_Arab_Empire_light",
+   "sample_len": 26,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.10000000000000002,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.10000000000000002
+  },
+  "arabic_leaderboard_acva_Arabic_Architecture_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Architecture_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Architecture_light",
+   "sample_len": 19,
+   "acc,none": 0.8421052631578947,
+   "acc_stderr,none": 0.085947008518708,
+   "acc_norm,none": 0.631578947368421,
+   "acc_norm_stderr,none": 0.11369720523522561
+  },
+  "arabic_leaderboard_acva_Arabic_Art_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Art_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Art_light",
+   "sample_len": 19,
+   "acc,none": 0.6842105263157895,
+   "acc_stderr,none": 0.10956136839295434,
+   "acc_norm,none": 0.47368421052631576,
+   "acc_norm_stderr,none": 0.11768778828946262
+  },
+  "arabic_leaderboard_acva_Arabic_Astronomy_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Astronomy_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Astronomy_light",
+   "sample_len": 19,
+   "acc,none": 0.631578947368421,
+   "acc_stderr,none": 0.11369720523522561,
+   "acc_norm,none": 0.47368421052631576,
+   "acc_norm_stderr,none": 0.11768778828946262
+  },
+  "arabic_leaderboard_acva_Arabic_Calligraphy_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Calligraphy_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Calligraphy_light",
+   "sample_len": 25,
+   "acc,none": 0.6,
+   "acc_stderr,none": 0.1,
+   "acc_norm,none": 0.44,
+   "acc_norm_stderr,none": 0.10132456102380442
+  },
+  "arabic_leaderboard_acva_Arabic_Ceremony_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Ceremony_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Ceremony_light",
+   "sample_len": 18,
+   "acc,none": 0.5555555555555556,
+   "acc_stderr,none": 0.12051692101036454,
+   "acc_norm,none": 0.7777777777777778,
+   "acc_norm_stderr,none": 0.1008316903303367
+  },
+  "arabic_leaderboard_acva_Arabic_Clothing_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Clothing_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Clothing_light",
+   "sample_len": 19,
+   "acc,none": 0.5263157894736842,
+   "acc_stderr,none": 0.1176877882894626,
+   "acc_norm,none": 0.5789473684210527,
+   "acc_norm_stderr,none": 0.11637279966159296
+  },
+  "arabic_leaderboard_acva_Arabic_Culture_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Culture_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Culture_light",
+   "sample_len": 19,
+   "acc,none": 0.6842105263157895,
+   "acc_stderr,none": 0.10956136839295434,
+   "acc_norm,none": 0.2631578947368421,
+   "acc_norm_stderr,none": 0.10379087338771256
+  },
+  "arabic_leaderboard_acva_Arabic_Food_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Food_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Food_light",
+   "sample_len": 19,
+   "acc,none": 0.5263157894736842,
+   "acc_stderr,none": 0.1176877882894626,
+   "acc_norm,none": 0.21052631578947367,
+   "acc_norm_stderr,none": 0.09609167675529229
+  },
+  "arabic_leaderboard_acva_Arabic_Funeral_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Funeral_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Funeral_light",
+   "sample_len": 9,
+   "acc,none": 0.5555555555555556,
+   "acc_stderr,none": 0.17568209223157663,
+   "acc_norm,none": 0.4444444444444444,
+   "acc_norm_stderr,none": 0.17568209223157663
+  },
+  "arabic_leaderboard_acva_Arabic_Geography_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Geography_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Geography_light",
+   "sample_len": 14,
+   "acc,none": 0.7857142857142857,
+   "acc_stderr,none": 0.1138039295450988,
+   "acc_norm,none": 0.8571428571428571,
+   "acc_norm_stderr,none": 0.09705231721239392
+  },
+  "arabic_leaderboard_acva_Arabic_History_light": {
+   "name": "arabic_leaderboard_acva_Arabic_History_light",
+   "alias": "arabic_leaderboard_acva_Arabic_History_light",
+   "sample_len": 19,
+   "acc,none": 0.5789473684210527,
+   "acc_stderr,none": 0.11637279966159296,
+   "acc_norm,none": 0.5263157894736842,
+   "acc_norm_stderr,none": 0.1176877882894626
+  },
+  "arabic_leaderboard_acva_Arabic_Language_Origin_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Language_Origin_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Language_Origin_light",
+   "sample_len": 9,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 0.6666666666666666,
+   "acc_norm_stderr,none": 0.16666666666666666
+  },
+  "arabic_leaderboard_acva_Arabic_Literature_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Literature_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Literature_light",
+   "sample_len": 14,
+   "acc,none": 0.6428571428571429,
+   "acc_stderr,none": 0.13289435848843764,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.1386750490563073
+  },
+  "arabic_leaderboard_acva_Arabic_Math_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Math_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Math_light",
+   "sample_len": 19,
+   "acc,none": 0.631578947368421,
+   "acc_stderr,none": 0.11369720523522561,
+   "acc_norm,none": 0.3157894736842105,
+   "acc_norm_stderr,none": 0.10956136839295434
+  },
+  "arabic_leaderboard_acva_Arabic_Medicine_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Medicine_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Medicine_light",
+   "sample_len": 14,
+   "acc,none": 0.6428571428571429,
+   "acc_stderr,none": 0.13289435848843764,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.1386750490563073
+  },
+  "arabic_leaderboard_acva_Arabic_Music_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Music_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Music_light",
+   "sample_len": 13,
+   "acc,none": 0.7692307692307693,
+   "acc_stderr,none": 0.12162606385262997,
+   "acc_norm,none": 0.46153846153846156,
+   "acc_norm_stderr,none": 0.14390989949130545
+  },
+  "arabic_leaderboard_acva_Arabic_Ornament_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Ornament_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Ornament_light",
+   "sample_len": 19,
+   "acc,none": 0.8421052631578947,
+   "acc_stderr,none": 0.085947008518708,
+   "acc_norm,none": 0.7368421052631579,
+   "acc_norm_stderr,none": 0.10379087338771255
+  },
+  "arabic_leaderboard_acva_Arabic_Philosophy_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Philosophy_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Philosophy_light",
+   "sample_len": 14,
+   "acc,none": 0.8571428571428571,
+   "acc_stderr,none": 0.09705231721239392,
+   "acc_norm,none": 0.5714285714285714,
+   "acc_norm_stderr,none": 0.13725270326150324
+  },
+  "arabic_leaderboard_acva_Arabic_Physics_and_Chemistry_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Physics_and_Chemistry_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Physics_and_Chemistry_light",
+   "sample_len": 19,
+   "acc,none": 0.7894736842105263,
+   "acc_stderr,none": 0.09609167675529229,
+   "acc_norm,none": 0.7368421052631579,
+   "acc_norm_stderr,none": 0.10379087338771255
+  },
+  "arabic_leaderboard_acva_Arabic_Wedding_light": {
+   "name": "arabic_leaderboard_acva_Arabic_Wedding_light",
+   "alias": "arabic_leaderboard_acva_Arabic_Wedding_light",
+   "sample_len": 19,
+   "acc,none": 0.6842105263157895,
+   "acc_stderr,none": 0.10956136839295434,
+   "acc_norm,none": 0.47368421052631576,
+   "acc_norm_stderr,none": 0.11768778828946262
+  },
+  "arabic_leaderboard_acva_Bahrain_light": {
+   "name": "arabic_leaderboard_acva_Bahrain_light",
+   "alias": "arabic_leaderboard_acva_Bahrain_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.75,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Comoros_light": {
+   "name": "arabic_leaderboard_acva_Comoros_light",
+   "alias": "arabic_leaderboard_acva_Comoros_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Egypt_modern_light": {
+   "name": "arabic_leaderboard_acva_Egypt_modern_light",
+   "alias": "arabic_leaderboard_acva_Egypt_modern_light",
+   "sample_len": 9,
+   "acc,none": 0.7777777777777778,
+   "acc_stderr,none": 0.1469861839480328,
+   "acc_norm,none": 0.4444444444444444,
+   "acc_norm_stderr,none": 0.17568209223157663
+  },
+  "arabic_leaderboard_acva_InfluenceFromAncientEgypt_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromAncientEgypt_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromAncientEgypt_light",
+   "sample_len": 19,
+   "acc,none": 0.8947368421052632,
+   "acc_stderr,none": 0.07233518641434492,
+   "acc_norm,none": 0.7894736842105263,
+   "acc_norm_stderr,none": 0.09609167675529229
+  },
+  "arabic_leaderboard_acva_InfluenceFromByzantium_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromByzantium_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromByzantium_light",
+   "sample_len": 14,
+   "acc,none": 0.9285714285714286,
+   "acc_stderr,none": 0.07142857142857144,
+   "acc_norm,none": 0.7857142857142857,
+   "acc_norm_stderr,none": 0.1138039295450988
+  },
+  "arabic_leaderboard_acva_InfluenceFromChina_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromChina_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromChina_light",
+   "sample_len": 19,
+   "acc,none": 0.7894736842105263,
+   "acc_stderr,none": 0.09609167675529229,
+   "acc_norm,none": 0.5789473684210527,
+   "acc_norm_stderr,none": 0.11637279966159296
+  },
+  "arabic_leaderboard_acva_InfluenceFromGreece_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromGreece_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromGreece_light",
+   "sample_len": 19,
+   "acc,none": 0.8947368421052632,
+   "acc_stderr,none": 0.07233518641434492,
+   "acc_norm,none": 0.631578947368421,
+   "acc_norm_stderr,none": 0.11369720523522561
+  },
+  "arabic_leaderboard_acva_InfluenceFromIslam_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromIslam_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromIslam_light",
+   "sample_len": 14,
+   "acc,none": 0.7142857142857143,
+   "acc_stderr,none": 0.12529400275814703,
+   "acc_norm,none": 0.2857142857142857,
+   "acc_norm_stderr,none": 0.12529400275814703
+  },
+  "arabic_leaderboard_acva_InfluenceFromPersia_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromPersia_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromPersia_light",
+   "sample_len": 17,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 0.8235294117647058,
+   "acc_norm_stderr,none": 0.09530501027070383
+  },
+  "arabic_leaderboard_acva_InfluenceFromRome_light": {
+   "name": "arabic_leaderboard_acva_InfluenceFromRome_light",
+   "alias": "arabic_leaderboard_acva_InfluenceFromRome_light",
+   "sample_len": 19,
+   "acc,none": 0.631578947368421,
+   "acc_stderr,none": 0.11369720523522561,
+   "acc_norm,none": 0.47368421052631576,
+   "acc_norm_stderr,none": 0.11768778828946262
+  },
+  "arabic_leaderboard_acva_Iraq_light": {
+   "name": "arabic_leaderboard_acva_Iraq_light",
+   "alias": "arabic_leaderboard_acva_Iraq_light",
+   "sample_len": 8,
+   "acc,none": 0.875,
+   "acc_stderr,none": 0.125,
+   "acc_norm,none": 0.375,
+   "acc_norm_stderr,none": 0.18298126367784995
+  },
+  "arabic_leaderboard_acva_Islam_Education_light": {
+   "name": "arabic_leaderboard_acva_Islam_Education_light",
+   "alias": "arabic_leaderboard_acva_Islam_Education_light",
+   "sample_len": 19,
+   "acc,none": 0.47368421052631576,
+   "acc_stderr,none": 0.11768778828946262,
+   "acc_norm,none": 0.42105263157894735,
+   "acc_norm_stderr,none": 0.11637279966159296
+  },
+  "arabic_leaderboard_acva_Islam_branches_and_schools_light": {
+   "name": "arabic_leaderboard_acva_Islam_branches_and_schools_light",
+   "alias": "arabic_leaderboard_acva_Islam_branches_and_schools_light",
+   "sample_len": 17,
+   "acc,none": 0.5882352941176471,
+   "acc_stderr,none": 0.12303823919618757,
+   "acc_norm,none": 0.47058823529411764,
+   "acc_norm_stderr,none": 0.12478354962115545
+  },
+  "arabic_leaderboard_acva_Islamic_law_system_light": {
+   "name": "arabic_leaderboard_acva_Islamic_law_system_light",
+   "alias": "arabic_leaderboard_acva_Islamic_law_system_light",
+   "sample_len": 19,
+   "acc,none": 0.631578947368421,
+   "acc_stderr,none": 0.11369720523522561,
+   "acc_norm,none": 0.5789473684210527,
+   "acc_norm_stderr,none": 0.11637279966159296
+  },
+  "arabic_leaderboard_acva_Jordan_light": {
+   "name": "arabic_leaderboard_acva_Jordan_light",
+   "alias": "arabic_leaderboard_acva_Jordan_light",
+   "sample_len": 4,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.28867513459481287,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Kuwait_light": {
+   "name": "arabic_leaderboard_acva_Kuwait_light",
+   "alias": "arabic_leaderboard_acva_Kuwait_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.75,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Lebanon_light": {
+   "name": "arabic_leaderboard_acva_Lebanon_light",
+   "alias": "arabic_leaderboard_acva_Lebanon_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Libya_light": {
+   "name": "arabic_leaderboard_acva_Libya_light",
+   "alias": "arabic_leaderboard_acva_Libya_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.28867513459481287
+  },
+  "arabic_leaderboard_acva_Mauritania_light": {
+   "name": "arabic_leaderboard_acva_Mauritania_light",
+   "alias": "arabic_leaderboard_acva_Mauritania_light",
+   "sample_len": 4,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.28867513459481287
+  },
+  "arabic_leaderboard_acva_Mesopotamia_civilization_light": {
+   "name": "arabic_leaderboard_acva_Mesopotamia_civilization_light",
+   "alias": "arabic_leaderboard_acva_Mesopotamia_civilization_light",
+   "sample_len": 15,
+   "acc,none": 0.6,
+   "acc_stderr,none": 0.13093073414159542,
+   "acc_norm,none": 0.6666666666666666,
+   "acc_norm_stderr,none": 0.12598815766974242
+  },
+  "arabic_leaderboard_acva_Morocco_light": {
+   "name": "arabic_leaderboard_acva_Morocco_light",
+   "alias": "arabic_leaderboard_acva_Morocco_light",
+   "sample_len": 4,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 0.5,
+   "acc_norm_stderr,none": 0.28867513459481287
+  },
+  "arabic_leaderboard_acva_Oman_light": {
+   "name": "arabic_leaderboard_acva_Oman_light",
+   "alias": "arabic_leaderboard_acva_Oman_light",
+   "sample_len": 4,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 1.0,
+   "acc_norm_stderr,none": 0.0
+  },
+  "arabic_leaderboard_acva_Palestine_light": {
+   "name": "arabic_leaderboard_acva_Palestine_light",
+   "alias": "arabic_leaderboard_acva_Palestine_light",
+   "sample_len": 8,
+   "acc,none": 0.625,
+   "acc_stderr,none": 0.18298126367784995,
+   "acc_norm,none": 0.0,
+   "acc_norm_stderr,none": 0.0
+  },
+  "arabic_leaderboard_acva_Qatar_light": {
+   "name": "arabic_leaderboard_acva_Qatar_light",
+   "alias": "arabic_leaderboard_acva_Qatar_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.75,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Saudi_Arabia_light": {
+   "name": "arabic_leaderboard_acva_Saudi_Arabia_light",
+   "alias": "arabic_leaderboard_acva_Saudi_Arabia_light",
+   "sample_len": 19,
+   "acc,none": 0.8947368421052632,
+   "acc_stderr,none": 0.07233518641434492,
+   "acc_norm,none": 0.3157894736842105,
+   "acc_norm_stderr,none": 0.10956136839295434
+  },
+  "arabic_leaderboard_acva_Somalia_light": {
+   "name": "arabic_leaderboard_acva_Somalia_light",
+   "alias": "arabic_leaderboard_acva_Somalia_light",
+   "sample_len": 4,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.28867513459481287,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Sudan_light": {
+   "name": "arabic_leaderboard_acva_Sudan_light",
+   "alias": "arabic_leaderboard_acva_Sudan_light",
+   "sample_len": 4,
+   "acc,none": 1.0,
+   "acc_stderr,none": 0.0,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Syria_light": {
+   "name": "arabic_leaderboard_acva_Syria_light",
+   "alias": "arabic_leaderboard_acva_Syria_light",
+   "sample_len": 4,
+   "acc,none": 0.75,
+   "acc_stderr,none": 0.25,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_Tunisia_light": {
+   "name": "arabic_leaderboard_acva_Tunisia_light",
+   "alias": "arabic_leaderboard_acva_Tunisia_light",
+   "sample_len": 4,
+   "acc,none": 0.5,
+   "acc_stderr,none": 0.28867513459481287,
+   "acc_norm,none": 0.75,
+   "acc_norm_stderr,none": 0.25
+  },
+  "arabic_leaderboard_acva_United_Arab_Emirates_light": {
+   "name": "arabic_leaderboard_acva_United_Arab_Emirates_light",
+   "alias": "arabic_leaderboard_acva_United_Arab_Emirates_light",
+   "sample_len": 8,
+   "acc,none": 0.875,
+   "acc_stderr,none": 0.125,
+   "acc_norm,none": 0.25,
+   "acc_norm_stderr,none": 0.16366341767699427
+  },
+  "arabic_leaderboard_acva_Yemen_light": {
+   "name": "arabic_leaderboard_acva_Yemen_light",
+   "alias": "arabic_leaderboard_acva_Yemen_light",
+   "sample_len": 10,
+   "acc,none": 0.7,
+   "acc_stderr,none": 0.15275252316519466,
+   "acc_norm,none": 0.4,
+   "acc_norm_stderr,none": 0.16329931618554522
+  },
+  "arabic_leaderboard_acva_communication_light": {
+   "name": "arabic_leaderboard_acva_communication_light",
+   "alias": "arabic_leaderboard_acva_communication_light",
+   "sample_len": 36,
+   "acc,none": 0.8055555555555556,
+   "acc_stderr,none": 0.0668977476599572,
+   "acc_norm,none": 0.4444444444444444,
+   "acc_norm_stderr,none": 0.08399210511316162
+  },
+  "arabic_leaderboard_acva_computer_and_phone_light": {
+   "name": "arabic_leaderboard_acva_computer_and_phone_light",
+   "alias": "arabic_leaderboard_acva_computer_and_phone_light",
+   "sample_len": 29,
+   "acc,none": 0.6896551724137931,
+   "acc_stderr,none": 0.0874297504891569,
+   "acc_norm,none": 0.3448275862068966,
+   "acc_norm_stderr,none": 0.08982552969857376
+  },
+  "arabic_leaderboard_acva_daily_life_light": {
+   "name": "arabic_leaderboard_acva_daily_life_light",
+   "alias": "arabic_leaderboard_acva_daily_life_light",
+   "sample_len": 33,
+   "acc,none": 0.7878787878787878,
+   "acc_stderr,none": 0.07226812131946558,
+   "acc_norm,none": 0.12121212121212122,
+   "acc_norm_stderr,none": 0.057695250801999304
+  },
+  "arabic_leaderboard_acva_entertainment_light": {
+   "name": "arabic_leaderboard_acva_entertainment_light",
+   "alias": "arabic_leaderboard_acva_entertainment_light",
+   "sample_len": 29,
+   "acc,none": 0.5172413793103449,
+   "acc_stderr,none": 0.09443492370778726,
+   "acc_norm,none": 0.2413793103448276,
+   "acc_norm_stderr,none": 0.080869237238335
+  },
+  "arabic_leaderboard_arabic_mmlu_light": {
+   "alias": "arabic_leaderboard_arabic_mmlu_light",
+   "name": "arabic_leaderboard_arabic_mmlu_light",
+   "sample_len": 1387,
+   "acc,none": 0.4974765681326604,
+   "acc_stderr,none": 0.012818790847838974,
+   "acc_norm,none": 0.4974765681326604,
+   "acc_norm_stderr,none": 0.012818790847838974,
+   "sample_count": {
+    "acc,none": 1387,
+    "acc_norm,none": 1387
+   }
+  },
+  "arabic_leaderboard_acva_light": {
+   "alias": "arabic_leaderboard_acva_light",
+   "name": "arabic_leaderboard_acva_light",
+   "sample_len": 851,
+   "acc,none": 0.7156286721504113,
+   "acc_stderr,none": 0.015204325603537499,
+   "acc_norm,none": 0.4782608695652174,
+   "acc_norm_stderr,none": 0.016410746563297145,
+   "sample_count": {
+    "acc,none": 851,
+    "acc_norm,none": 851
+   }
+  }
+ }
+}
