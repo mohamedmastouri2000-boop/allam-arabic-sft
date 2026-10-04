@@ -122,6 +122,13 @@ card += """## Limitations
 llama-cli -m ALLaM-7B-Arabic-SFT-Q4_K_M.gguf -ngl 99 -cnv
 ```
 """
+# optional "Built by" section: only what the owner supplied in built_by.json (url, en, ar)
+bb = load(r"..\built_by.json")
+if bb:
+    card += f"\n## Built by\n\n{bb['en']}\n\n" + (f"{bb['ar']}\n\n" if bb.get("ar") else "") + \
+            f"Website: [{bb['url']}]({bb['url']})" + \
+            (f" · Model listing: [{bb['tools']}]({bb['tools']})" if bb.get("tools") else "") + \
+            (f" · Contact: {bb['contact']}" if bb.get("contact") else "") + "\n"
 deltas = ", ".join(f"{label} {acc(tuned, t) - acc(base, t):+.1f}" for t, label, _ in TASKS
                    if acc(tuned, t) is not None and acc(base, t) is not None) or "not measured"
 card = card.replace("{DELTAS}", deltas)
